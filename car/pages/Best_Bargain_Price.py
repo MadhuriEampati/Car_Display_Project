@@ -2,7 +2,7 @@
 # import pandas as pd
 
 # def run():
-#     st.header("Best Bargain Price 💰")
+#     st.header("Best Bargain Price ")
 
 #     try:
 #         df = pd.read_csv("Car/Cardata.csv")
@@ -22,7 +22,7 @@
 import streamlit as st
 import pandas as pd
 
-st.header("Best Bargain Price 💰")
+st.header("Best Bargain Price ")
 
 df = pd.read_csv("Car/Cardata.csv")
 
