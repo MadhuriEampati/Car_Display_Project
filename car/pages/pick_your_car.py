@@ -2,7 +2,7 @@
 # import pandas as pd
 
 # def run():
-#     st.header("Pick Your Car 🚘")
+#     st.header("Pick Your Car ")
 
 #     # Load dataset
 #     try:
@@ -32,7 +32,7 @@
 import streamlit as st
 import pandas as pd
 
-st.header("Pick Your Car 🚘")
+st.header("Pick Your Car ")
 
 df = pd.read_csv("Car/Cardata.csv")
 
